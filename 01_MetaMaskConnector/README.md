@@ -1,6 +1,6 @@
 # MetaMask 連結器
 
-此專案提供一個前端應用程式，用來連結 MetaMask（狐狸錢包），並可切換至 Optimism Sepolia 網路，同時查詢當前 ETH 與 ERC20 代幣（LPT）的餘額。
+此專案提供一個前端應用程式，用來連結 MetaMask，並可切換至 Optimism Sepolia 網路，同時查詢當前 ETH 與 ERC20 代幣（LPT）的餘額。
 
 ![示例圖片](https://github.com/yoyoj1023/dapps/blob/main/01_MetaMaskConnector/MetaMaskConnector.png)
 
