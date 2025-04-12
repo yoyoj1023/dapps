@@ -3,6 +3,8 @@
 ## 專案說明
 這個專案是我在挑戰 Challenge #0: 🎟 Simple NFT Example 中所開發的，採用 Scaffold eth 2 全端架構。專案整合了鏈上 (Hardhat) 與前端 (React + Next.js) 技術，特色包含錢包連結、連接至 sepolia 測試網路，以及對已部署的 NFT 合約進行挖礦並將 NFT 發送到錢包地址以供預覽。
 
+![示例圖片](https://github.com/yoyoj1023/dapps/blob/main/02_SpeedrunNTF/sample.png)
+
 ## 主要功能
 - 錢包連結與管理（支援 MetaMask 與燒錢包）
 - sepolia 測試網路支援
