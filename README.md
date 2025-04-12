@@ -6,5 +6,5 @@
 
 目前已上傳的 Dapps 與其簡要說明：
 
-1. 01_MetaMaskConnector：介紹 Dapp 的最基本範例。
+1. 01_MetaMaskConnector：介紹 Dapp 的最基本範例。可以連結狐狸錢包並顯示餘額。
 2. 02_SpeedrunNTF：關於 NTF 的完整 Dapp 架構，從合約部屬到前端演示，以及 NTF 挖礦。 
