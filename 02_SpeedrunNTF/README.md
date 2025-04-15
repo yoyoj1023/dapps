@@ -7,6 +7,8 @@
 
 - 部屬網址： https://45challenge-0-simple-nft.vercel.app/
 
+- 部屬合約： [已驗證原始碼](https://sepolia.etherscan.io/address/0x2E0C472de0f333f8e2e2156861293819aA1d04DD#code)
+
 ## 主要功能
 - 錢包連結與管理（支援 MetaMask 與燒錢包）
 - sepolia 測試網路支援
