@@ -3,6 +3,8 @@
 ## 專案說明
 這個專案是我在挑戰 Challenge #1: 🔏 Decentralized Staking App 中所開發的，採用 Scaffold eth 2 全端架構。專案整合了鏈上 (Hardhat) 與前端 (React + Next.js) 技術，特色包含錢包連結、連接至 sepolia 測試網路，以及對已部署的 DeFi Staking 合約進行質押鎖倉，並監聽代幣質押事件以供預覽。
 
+![示例圖片](https://github.com/yoyoj1023/dapps/blob/main/03_SpeedrunDeFiStaking/sample.png)
+
 - 部屬網址： https://49challenge-1-decentralized-staking.vercel.app
 
 - 部屬合約： [已驗證原始碼](https://sepolia.etherscan.io/address/0x1eE48Bd39358A8e511C5Ba8264F1e6085Ad2AF84#code)
