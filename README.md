@@ -1,6 +1,6 @@
 # Dapps
 
-這是一個 yoyoj1023 所撰寫的 Dapps 專案集合，包含了 Speedrun eth 的內容與自己的創意內容。主要使用 Scaffold 全端架構。
+這是一個 Dapps 實戰專案集合，內含成熟的全端 Dapp 應該要有的完整架構與核心功能，同時包含了 Speedrun eth 的挑戰內容與自己的解題答案。主要使用 Scaffold 全端架構開發。
 
 ## 項目列表
 
@@ -8,3 +8,19 @@
 
 1. 01_MetaMaskConnector：介紹 Dapp 的最基本範例。可以連結狐狸錢包並顯示代幣餘額。
 2. 02_SpeedrunNTF：關於 NTF 的完整 Dapp 架構，從合約部屬到前端演示，以及 NTF 挖礦。 
+3. 03_SpeedrunDeFiStakeing：關於 DeFi 的架構，演示如何質押、提款、取款、監聽交易事件。
+
+### 環境要求
+- Node.js (>= v18.18)
+- Yarn (v1 或 v2+)
+- Git
+
+### 建立全端框架
+1. Scaffold-Eth-2:
+   ```bash
+   npx create-eth@latest
+   ```
+2. Scaffold Alchemy:
+   ```bash
+   npx create-web3-dapp@latest
+   ```
