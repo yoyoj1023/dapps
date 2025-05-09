@@ -12,6 +12,7 @@
 4. 04-speedrun-token-vendor：關於 ERC20 代幣的販賣機，演示代幣的買賣、監聽交易事件。
 5. 05-speedrun-dice-game：擲骰子遊戲賭博，猜中可贏得獎金，同時追蹤每位挑戰者下注的歷史事件。
 6. 06-speedrun-dex：建造 DEX，提供 ETH 與 ERC20 代幣的交易所。免訂單簿與對手方，流動性永遠可用。
+7. 07-scaffold-prices-getter：提供 get prices 頁面，可以查詢 BTC 和 ETH 的即時價格資訊。
 
 ### 環境要求
 - Node.js (>= v18.18)
