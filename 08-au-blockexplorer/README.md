@@ -2,6 +2,10 @@
 
 這是一個使用 React 和 AlchemySDK 構建的以太坊區塊瀏覽器，可以讓使用者瀏覽以太坊區塊鏈上的區塊、交易和地址資訊。
 
+![示例圖片](https://github.com/yoyoj1023/dapps/blob/main/08-au-blockexplorer/sample1.png)
+
+![示例圖片](https://github.com/yoyoj1023/dapps/blob/main/08-au-blockexplorer/sample2.png)
+
 ## 功能特點
 
 - 顯示最新的以太坊區塊和交易
