@@ -6,6 +6,8 @@
 
 ![示例圖片](https://github.com/yoyoj1023/dapps/blob/main/08-au-blockexplorer/sample2.png)
 
+- 部署網址：https://au-blockexplorer.vercel.app/
+
 ## 功能特點
 
 - 顯示最新的以太坊區塊和交易
