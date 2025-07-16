@@ -14,6 +14,7 @@ Currently uploaded dApps and their brief descriptions:
 6. 06-speedrun-dex: Build a DEX providing exchange between ETH and ERC20 tokens. Order-book free and counterparty-free, with always available liquidity.
 7. 07-scaffold-prices-getter: Provides a get prices page where you can query real-time price information for BTC and ETH.
 8. 08-au-blockexplorer: Self-built full-stack dApp Ethereum blockchain explorer.
+9. 09-sa-ens-searcher: ENS (Ethereum Name Service) searcher tool built with Scaffold-Alchemy. Features ENS name resolution, reverse address lookup, user information display, and ENS avatar loading.
 
 ### Environment Requirements
 - Node.js (>= v18.18)
