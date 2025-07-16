@@ -3,6 +3,12 @@
 ## 專案說明
 這個專案是一個基於 Scaffold-Alchemy 架構開發的 ENS（Ethereum Name Service）搜尋器 dApp。專案整合了鏈上 (Hardhat) 與前端 (React + Next.js) 技術，特色包含錢包連結、ENS 名稱解析、用戶資訊查詢，以及與以太坊主網的互動功能。
 
+![示例圖片](https://github.com/yoyoj1023/dapps/blob/main/09-sa-ens-searcher/sample2.png)
+
+![示例圖片](https://github.com/yoyoj1023/dapps/blob/main/09-sa-ens-searcher/sample3.png)
+
+- 部署網址：https://ens-reachme.vercel.app/ens-search/
+
 ## 主要功能
 - 🔍 **ENS 名稱搜尋**：支援輸入 ENS 名稱（如 vitalik.eth）進行查詢
 - 📍 **地址解析**：支援輸入以太坊地址進行反向 ENS 查詢
