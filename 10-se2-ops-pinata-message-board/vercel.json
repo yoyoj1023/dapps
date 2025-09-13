@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd packages/nextjs && yarn build",
+  "outputDirectory": "packages/nextjs/.next",
+  "installCommand": "yarn install",
+  "framework": "nextjs",
+  "functions": {
+    "packages/nextjs/app/api/**/*.ts": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
