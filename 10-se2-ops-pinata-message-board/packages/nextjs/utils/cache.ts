@@ -1,60 +1,60 @@
 // packages/nextjs/utils/cache.ts
 interface CacheItem<T> {
-    data: T;
-    timestamp: number;
-    expiry: number;
+  data: T;
+  timestamp: number;
+  expiry: number;
 }
 
 class MemoryCache {
-    private cache = new Map<string, CacheItem<any>>();
-    private defaultTTL = 5 * 60 * 1000; // 5 分鐘
+  private cache = new Map<string, CacheItem<any>>();
+  private defaultTTL = 5 * 60 * 1000; // 5 分鐘
 
-    set<T>(key: string, data: T, ttl?: number): void {
-        const expiry = Date.now() + (ttl || this.defaultTTL);
-        this.cache.set(key, {
-            data,
-            timestamp: Date.now(),
-            expiry,
-        });
+  set<T>(key: string, data: T, ttl?: number): void {
+    const expiry = Date.now() + (ttl || this.defaultTTL);
+    this.cache.set(key, {
+      data,
+      timestamp: Date.now(),
+      expiry,
+    });
+  }
+
+  get<T>(key: string): T | null {
+    const item = this.cache.get(key);
+
+    if (!item) {
+      return null;
     }
 
-    get<T>(key: string): T | null {
-        const item = this.cache.get(key);
-
-        if (!item) {
-            return null;
-        }
-
-        if (Date.now() > item.expiry) {
-            this.cache.delete(key);
-            return null;
-        }
-
-        return item.data;
+    if (Date.now() > item.expiry) {
+      this.cache.delete(key);
+      return null;
     }
 
-    has(key: string): boolean {
-        const item = this.cache.get(key);
+    return item.data;
+  }
 
-        if (!item) {
-            return false;
-        }
+  has(key: string): boolean {
+    const item = this.cache.get(key);
 
-        if (Date.now() > item.expiry) {
-            this.cache.delete(key);
-            return false;
-        }
-
-        return true;
+    if (!item) {
+      return false;
     }
 
-    clear(): void {
-        this.cache.clear();
+    if (Date.now() > item.expiry) {
+      this.cache.delete(key);
+      return false;
     }
 
-    size(): number {
-        return this.cache.size;
-    }
+    return true;
+  }
+
+  clear(): void {
+    this.cache.clear();
+  }
+
+  size(): number {
+    return this.cache.size;
+  }
 }
 
 export const ipfsCache = new MemoryCache();
