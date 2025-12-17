@@ -26,6 +26,8 @@ Currently uploaded dApps and their brief descriptions:
 
 10. 10-se2-ops-pinata-message-board: IPFS decentralized message board built with Scaffold-ETH 2. Combines blockchain smart contracts with IPFS distributed storage for a decentralized messaging platform with real-time updates, and censorship resistance.
 
+11. 11-speedrun-prediciton-markets: Complete on-chain prediction market dApp where users can bet on event outcomes. Features ERC20 outcome tokens, AMM-based trading with dynamic pricing, oracle-based result reporting, and liquidity provision mechanics. Includes buy/sell trading, token redemption, and explores the fundamentals of decentralized prediction markets.
+
 ### Environment Requirements
 - Node.js (>= v18.18)
 - Yarn (v1 or v2+)
