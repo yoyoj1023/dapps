@@ -8,7 +8,7 @@ In this challenge, we built an anonymous voting system based on zero-knowledge p
 
 ![Sample Image](https://github.com/yoyoj1023/dapps/blob/main/12-speedrun-zk-voting/sample2.png)
 
-- Deployed Site: [Website Link](https://165-speedrun-zk-voting.vercel.app/debug)
+- Deployed Site: [Website Link](https://165-speedrun-zk-voting.vercel.app/)
 - Deployed Contract: [Verified Contract Address](https://sepolia.etherscan.io/address/0x3F449913872AE2142cDf30e35Cd684c9AA8fa3bd)
 
 
