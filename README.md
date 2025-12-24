@@ -28,6 +28,10 @@ Currently uploaded dApps and their brief descriptions:
 
 11. 11-speedrun-prediciton-markets: Complete on-chain prediction market dApp where users can bet on event outcomes. Features ERC20 outcome tokens, AMM-based trading with dynamic pricing, oracle-based result reporting, and liquidity provision mechanics. Includes buy/sell trading, token redemption, and explores the fundamentals of decentralized prediction markets.
 
+12. 12-speedrun-zk-voting: Anonymous voting system powered by zero-knowledge proofs using Noir circuits. Ensures complete voter privacy while preventing double voting through nullifier mechanisms and Merkle tree verification. Features Poseidon hash-based commitments, on-chain proof verification with Barretenberg, and demonstrates advanced cryptographic primitives for privacy-preserving dApps.
+
+
+
 ### Environment Requirements
 - Node.js (>= v18.18)
 - Yarn (v1 or v2+)
